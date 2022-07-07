@@ -5,7 +5,7 @@ document.getElementById("speed").innerHTML = "Speed: " + (Math.floor(Math.random
 var gforce = Math.random() + 9.3;
 document.getElementById("gforce").innerHTML = "G-force: " + gforce.toFixed(2) + " 9.807 m/s²";
 
-// Metrics
+// Environment
 function gravity() {
     document.getElementById("gravity").innerHTML = Math.floor(Math.random() * 50) + " m/s";
 }
