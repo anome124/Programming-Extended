@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Boyko">
+	<title>Challenge 1</title>
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+	<script src="scripts/main.js" defer></script>
+</head>
+
+<body style="background-image: url('images/background.png'); background-position: 100%; background-attachment: fixed;">
+	<img src="images/logo.png" class="middle">
+	<img src="images/line.png" class="line">
+	<h1>Welcome on board!</h1> <br>
+
+
+	<div class="container">
+		<div class="functionalities">
+			<a href="parameters.html">
+				<div class="item">
+					<img src="images/outline_turquoise.png" class="outline">
+					<div class="text">Parameters</div>
+				</div>
+			</a>
+			<a href="environment.html">
+				<div class="item">
+					<img src="images/outline_turquoise.png" class="outline">
+					<div class="text">Environment</div>
+				</div>
+			</a>
+			<a href="supplies.html">
+				<div class="item">
+					<img src="images/outline_white.png" class="outline_selected">
+					<div class="selected">Supplies</div>
+				</div>
+			</a>
+			<a href="metrics.html">
+				<div class="item">
+					<img src="images/outline_turquoise.png" class="outline">
+					<div class="text">Metrics</div>
+				</div>
+			</a>
+		</div>
+
+		<div class="measurements">
+			<img src="images/information.png" class="information">
+			<div class="content">
+				<div class="food">
+					Food <br>
+					<input type="text" name="food" id="food" />
+					<button onclick="foodSupplies()">Convert</button>
+					<p id="foodLeft"></p>
+				</div>
+				<div class="water">
+					Water <br>
+					<input type="text" name="water" id="water" />
+					<button onclick="waterSupplies()">Convert</button>
+					<p id="waterLeft"></p>
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+	</div>
+
+
+</body>
+
+</html>

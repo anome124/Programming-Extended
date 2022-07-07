@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=MuseoModerno:wght@300&display=swap');
+
+body {
+    font-family: 'MuseoModerno', cursive;
+    font-weight: lighter;
+    color: #FFFFFF;
+    background-image: url('/images/background.png');
+    background-color: #000002;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.middle {
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.line {
+    width: 100%;
+    display: block;
+}
+
+h1 {
+    font-weight: lighter;
+    text-align: center;
+    margin: 0;
+}
+
+p{
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.container{
+    display: flex;
+}
+
+.functionalities{
+    height: 700px;
+    width: 50%;
+    margin-left: 5%;
+    float: left;
+}
+
+.item{
+    position: relative;
+    text-align: center;
+}
+
+.outline{
+    width: 40vw;
+    height: 18vh;
+    margin: -1%;
+    padding: 0;
+}
+
+.outline_selected{
+    width: 42vw;
+    height: 20vh;
+    margin: -1%;
+    padding: 0;
+}
+
+.text{
+    color: #d1f8fd;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.selected{
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.measurements{
+    height: 700px;
+    width: 50%;
+    margin-right: 5%;
+    float: right;
+}
+
+.information{
+    width: 40vw;
+    height: 70vh;
+    padding: 0;
+    text-align: right;
+}
+
+.content{
+    font-size: 30px;
+    text-align: center;
+    transform: translate(0, -57vh);
+    float: center;
+}
+
+button {
+    font-size: 20px;
+    background-color: transparent;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 400px;
+
+    margin-top: 15px;
+    color: #FFFFFA;
+    padding: 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+input[type=text] {
+    width: 30%;
+    padding: 9px 10px;
+    border-radius: 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+main {
+    margin-top: 2%;
+    margin-bottom: 5%;
+}

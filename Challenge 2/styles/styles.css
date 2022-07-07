@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=MuseoModerno:wght@300&display=swap');
+
+body {
+    font-family: 'MuseoModerno', cursive;
+    font-weight: lighter;
+    color: #FFFFFF;
+    text-align: center;
+    height: 100%;
+    overflow: hidden;
+
+    background-image: url('/images/background.png');
+    background-color: #000002;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    z-index: -2;
+}
+
+.middle {
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.line {
+    width: 100%;
+    display: block;
+}
+
+
+h1 {
+    font-family: 'MuseoModerno', cursive;
+    font-weight: lighter;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 3em;
+    margin: 0;
+    padding-top: 30px;
+}
+
+h2 {
+    font-family: 'MuseoModerno', cursive;
+    font-weight: lighter;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 2em;
+    margin: 10;
+}
+
+.outline {
+    width: 23vw;
+    height: 18vh;
+    margin: -1%;
+    float: center;
+    padding: 0;
+}
+
+.outline_selected {
+    width: 23vw;
+    height: 19vh;
+    margin: -1%;
+    padding: 0;
+}
+
+.buttons{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+
+input {
+    border: none;
+    border-radius: 4px;
+    background-color: transparent;
+    font-family: 'MuseoModerno', cursive;
+    font-weight: lighter;
+    font-size: 2em;
+    color: transparent;
+    text-align: center;
+
+    margin: 4px 2px;
+    padding: 15px 30px;
+
+    cursor: pointer;
+    float: center;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-125%, 0%);
+}
+
+#rover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 350px;
+    left: -500px;
+    scale: 0.15;
+    object-fit: contain;
+    z-index: -1;
+
+    cursor: pointer;
+
+    animation: animation 20s infinite ease-in-out;
+}
+
+
+@keyframes animation {
+    0% {
+        left: -500px;
+        transform: scale(1, 1);
+    }
+
+    30% {
+        left: -300px;
+        top: 180px;
+        transform: scale(1, 1);
+    }
+
+    50% {
+        left: 500px;
+        top: 200px;
+        transform: scale(1, 1);
+    }
+
+    55% {
+        left: 500px;
+        top: 200px;
+        transform: scale(-1, 1);
+    }
+
+    65% {
+        left: 500px;
+        top: 300px;
+        transform: scale(-1, 1);
+    }
+
+    95% {
+        left: -500px;
+        top: 350px;
+        transform: scale(-1, 1);
+    }
+
+    100% {
+        left: -500px;
+        top: 350px;
+        transform: scale(1, 1);
+    }
+}

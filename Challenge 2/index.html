@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Boyko">
+    <title>Challenge 2</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <script src="scripts/main.js" defer></script>
+</head>
+
+<body style="background-image: url('images/background.png'); background-position: 100%; background-attachment: fixed;">
+    <img src="images/logo.png" class="middle">
+    <img src="images/line.png" class="line">
+    <h1>Welcome on board!</h1> <br>
+
+    <!-- Rover -->
+    <div id="rover">
+        <img src="images/marsRover.png">
+    </div>
+
+    <!-- Date and time -->
+    <div id="container">
+        <h1 id="clock">00:00:00</h1>
+        <h2 id="date">XX.YY.XXXX</h2>
+    </div>
+
+    <!-- Buttons -->
+    <div class="buttons">
+        <div id="buttonMorning">
+        <img src="images/morning_outline_turquoise.png" class="outline">
+    </div>
+        <input type="button" id="morning" value="Morning" onclick="sceneMorning()">
+        <div id="buttonEvening">
+            <img src="images/evening_outline_turquoise.png" class="outline">
+        </div>
+        <input type="button" id="evening" value="Evening" onclick="sceneEvening()">
+    </div>
+
+    <!-- Background scene -->
+    <div id="scene">
+    </div>
+
+
+</body>
+
+</html>
